@@ -42,3 +42,60 @@ a {
     color: white;
     font-weight: bold;
 }
+
+.Juegos-Content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.catalogo h2{
+    text-align: center;
+    margin: 2rem;
+}
+
+.catalogo img{
+    width: 100%;
+}
+
+.Juegos{
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    margin-bottom: .5rem;
+    box-sizing: border-box;
+    text-align: left;
+    max-width: 350px;
+}
+.Juegos{
+    background-color: #fff;
+}
+
+.Juegos .juegos-descrip{
+    padding: .7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Juegos span{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.Juegos a{
+    text-align: center;
+    background-color: black;
+    padding: 1rem;
+    margin: 0 auto;
+    transition: all .3s;
+    border-radius: 5px;
+
+}
+
+.Juegos a:hover{
+    scale: 1.1;
+    transition: all .3s;
+}
