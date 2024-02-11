@@ -1,5 +1,47 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns"></div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <div id="carrito">
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>imagen</th>
+                                            <th>nombre</th>
+                                            <th>precio</th>
+                                            <th>cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,37 +59,36 @@
             </ul>
         </nav> 
     </header>
-    <section class="catalogo container">
-        <h2 class="titulo-catalogo ">Catalogo Juegos</h2>
+    <section class="catalogo container" id="catalogo-juegos">
+        <h2 class="titulo-catalogo">Catalogo Juegos</h2>
         <div class="Juegos-Content">
-        <div class="Juegos">
-            <img src="image/gsc_113283894_603760_1.jpg" alt="Dmc3">
-            <div class="juegos-descrip">
-            <h2>Devil may cry 3</h2>
-            <span>33$</span>
-            <a>Comprar</a>
+            <div class="Juegos" id="catalogo-juegos">
+                <img src="image/devil-may-cry-5-201912413174736_1.jpg" alt="Dmc3">
+                <div class="juegos-descrip">
+                    <h2>Devil may cry 5</h2>
+                    <span>33$</span>
+                    <a href="#" class="catalogo-juegos" data-id="1">Comprar</a>
+                </div>
+            </div>
+            <div class="Juegos" id="catalogo-juegos">
+                <img src="image/gsc_113283894_603760_1.jpg" alt="Dmc3">
+                <div class="juegos-descrip">
+                    <h2>Resident evil 9</h2>
+                    <span>45$</span>
+                    <a href="#" class="catalogo-juegos" data-id="2">Comprar</a>
+                </div>
+            </div>
+            <div class="Juegos" id="catalogo-juegos">
+                <img src="image/81jOO53m2PL.jpg" alt="Dmc3">
+                <div class="juegos-descrip">
+                    <h2>the last of Us2</h2>
+                    <span>1$</span>
+                    <a href="#" class="catalogo-juegos" data-id="3">Comprar</a>
+                </div>
             </div>
         </div>
-        <div class="Juegos">
-            <img src="image/gsc_113283894_603760_1.jpg" alt="Dmc3">
-            <div class="juegos-descrip">
-            <h2>Resident evil 9</h2>
-            <span>45$</span>
-            <a>Comprar</a>
-            </div>
-        </div>
-        <div class="Juegos">
-            <img src="image/gsc_113283894_603760_1.jpg" alt="Dmc3">
-            <div class="juegos-descrip">
-            <h2>Pepsiman</h2>
-            <span>1$</span>
-            <a>Comprar</a>
-            </div>
-        </div>
-        </div>
-        
-
-        
     </section>
+    <script src="js/app.js"></script>
+    <script src="https://kit.fontawesome.com/b45291dd60.js" crossorigin="anonymous"></script>
 </body>
 </html>

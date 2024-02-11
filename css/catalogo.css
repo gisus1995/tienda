@@ -16,7 +16,13 @@ body {
 a {
     color: #fff;
 }
-
+.header{
+    background-image: linear-gradient(#00000057, #0000007c), url('../image/05_La-industria-de-los-videojuegos-ya-es-estrategica-para-Europa-1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -98,4 +104,8 @@ a {
 .Juegos a:hover{
     scale: 1.1;
     transition: all .3s;
+}
+
+#logo{
+    
 }
